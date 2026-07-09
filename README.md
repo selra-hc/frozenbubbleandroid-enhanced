@@ -10,13 +10,6 @@ Useful commands:
 - `./gradlew assembleDebug` (full build, requires NDK)
 - `./gradlew -PskipNativeBuild=true assembleDebug` (Java/resources validation only)
 
-<a href="https://f-droid.org/repository/browse/?fdid=org.jfedor.frozenbubble" target="_blank">
-<img src="https://f-droid.org/badge/get-it-on.png" alt="Get it on F-Droid" height="80"/></a>
-<a href="https://play.google.com/store/apps/details?id=org.jfedor.frozenbubble" target="_blank">
-<img src="https://play.google.com/intl/en_us/badges/images/generic/en-play-badge.png" alt="Get it on Google Play" height="80"/></a>
-<a href="https://www.amazon.com/Eric-Fortin-Frozen-Bubble/dp/B00F4ITDME" target="_blank">
-<img src="https://images-na.ssl-images-amazon.com/images/G/01/mobile-apps/devportal2/res/images/amazon-underground-app-us-black.png" alt="Get it on F-Droid" height="80"/></a>
-
 The code is based on the Java version of Frozen Bubble created by Glenn Sanson.
 The original Frozen Bubble was created by Guillaume Cottenceau (programming),
 Alexis Younes and Amaury Amblard-Ladurantie (artwork) and Matthias Le Bidan
