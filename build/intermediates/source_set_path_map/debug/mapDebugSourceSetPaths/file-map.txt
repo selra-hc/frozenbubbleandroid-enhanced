@@ -1,7 +1,0 @@
-org.jfedor.frozenbubble-pngs-0 /home/cbastien/repos/local/frozenbubbleandroid-master/build/generated/res/pngs/debug
-org.jfedor.frozenbubble-resValues-1 /home/cbastien/repos/local/frozenbubbleandroid-master/build/generated/res/resValues/debug
-org.jfedor.frozenbubble-mergeDebugResources-2 /home/cbastien/repos/local/frozenbubbleandroid-master/build/intermediates/incremental/debug/mergeDebugResources/merged.dir
-org.jfedor.frozenbubble-mergeDebugResources-3 /home/cbastien/repos/local/frozenbubbleandroid-master/build/intermediates/incremental/debug/mergeDebugResources/stripped.dir
-org.jfedor.frozenbubble-debug-4 /home/cbastien/repos/local/frozenbubbleandroid-master/build/intermediates/merged_res/debug/mergeDebugResources
-org.jfedor.frozenbubble-frozenbubbleandroid-master-5 /home/cbastien/repos/local/frozenbubbleandroid-master/res
-org.jfedor.frozenbubble-debug-6 /home/cbastien/repos/local/frozenbubbleandroid-master/src/debug/res

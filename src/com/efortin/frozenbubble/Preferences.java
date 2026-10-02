@@ -52,9 +52,9 @@
 
 package com.efortin.frozenbubble;
 
-import org.jfedor.frozenbubble.BubbleSprite;
-import org.jfedor.frozenbubble.FrozenBubble;
-import org.jfedor.frozenbubble.LevelManager;
+import org.cb.enhancedfrozenbubble.BubbleSprite;
+import org.cb.enhancedfrozenbubble.FrozenBubble;
+import org.cb.enhancedfrozenbubble.LevelManager;
 
 public class Preferences {
   public static final int PREFS_BYTES = 18;

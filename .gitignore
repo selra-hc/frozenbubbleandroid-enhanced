@@ -1,0 +1,26 @@
+# Build output
+/build/
+/app/build/
+
+# Gradle
+/.gradle/
+/.gradle-home/
+
+# Android SDK cache
+/.android/
+
+# IDE
+/.idea/
+*.iml
+
+# Local config
+local.properties
+key.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Zone.Identifier (Windows metadata)
+*:Zone.Identifier
+*:Zone - Copy.Identifier

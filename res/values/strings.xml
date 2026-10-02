@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Frozen Bubble</string>
+  <string name="app_name">Enhanced Frozen Bubbles</string>
   <string name="exit">Exit</string>
-  <string name="install_editor">Redirecting you to the Market to download the Frozen Bubble Level Editor…</string>
-  <string name="market_missing">Cannot find Android Market! Please install Frozen Bubble Level Editor manually.</string>
   <string name="menu_bluetooth_device">Bluetooth Device</string>
   <string name="menu_new_game">Start New Game</string>
   <string name="menu_colorblind_on">Colorblind Mode On</string>
@@ -24,8 +22,32 @@
   <string name="play_level_music">Play Level Music</string>
   <string name="play_sound_effects">Play Sound Effects</string>
   <string name="save_and_exit">Save and Exit</string>
-  <string name="title_activity_frozen_bubble">Frozen Bubble</string>
-  <string name="title_activity_home_screen">Frozen Bubble</string>
+  <string name="title_activity_frozen_bubble">Enhanced Frozen Bubbles</string>
+  <string name="title_activity_home_screen">Enhanced Frozen Bubbles</string>
+  <string name="title_activity_level_pack_manager">Levels</string>
+  <string name="title_activity_level_editor">Level Editor</string>
+  <string name="editor_save">Save</string>
+  <string name="editor_save_as_new">Save as New</string>
+  <string name="editor_test">Test</string>
+  <string name="editor_back">Back</string>
+  <string name="editor_color_limit">Colors:</string>
+  <string name="editor_saved">Level saved</string>
+  <string name="editor_save_failed">Could not save level</string>
+  <string name="editor_reset_level">Reset to Default</string>
+  <string name="editor_reset_level_confirm">Reset this level to its original content? Unsaved changes will be lost.</string>
+  <string name="editor_reset_no_default">This level has no default to reset to</string>
+  <string name="editor_reset_done">Reset to default. Save to keep this.</string>
+  <string name="level_pack_new_level">New Level</string>
+  <string name="level_pack_reset">Reset to Defaults</string>
+  <string name="level_pack_reset_confirm">Discard all edits and restore the original levels?</string>
+  <string name="level_pack_edit">Edit</string>
+  <string name="level_pack_delete">Delete</string>
+  <string name="level_pack_move_up">Up</string>
+  <string name="level_pack_move_down">Down</string>
+  <string name="level_pack_empty">No levels yet.</string>
+  <string name="level_pack_level_label">Level %1$d</string>
+  <string name="level_pack_delete_confirm">Delete this level?</string>
+  <string name="level_pack_load_failed">Could not load levels</string>
   <string name="scrolling_credits">"Original Development\n"
     "------------------------\n"
     "\nGuillaume Cottenceau - Design and Programming\n"

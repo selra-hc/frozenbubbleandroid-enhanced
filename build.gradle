@@ -8,11 +8,11 @@ def enableNativeBuild =
       .getOrElse(false)
 
 android {
-  namespace 'org.jfedor.frozenbubble'
+  namespace 'org.cb.enhancedfrozenbubble'
   compileSdk 35
 
   defaultConfig {
-    applicationId 'org.jfedor.frozenbubble'
+    applicationId 'org.cb.enhancedfrozenbubble'
     minSdk 21
     targetSdk 35
     versionCode 54

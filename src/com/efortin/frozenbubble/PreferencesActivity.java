@@ -52,10 +52,10 @@
 
 package com.efortin.frozenbubble;
 
-import org.jfedor.frozenbubble.BubbleSprite;
-import org.jfedor.frozenbubble.FrozenBubble;
-import org.jfedor.frozenbubble.LevelManager;
-import org.jfedor.frozenbubble.R;
+import org.cb.enhancedfrozenbubble.BubbleSprite;
+import org.cb.enhancedfrozenbubble.FrozenBubble;
+import org.cb.enhancedfrozenbubble.LevelManager;
+import org.cb.enhancedfrozenbubble.R;
 
 import android.content.SharedPreferences;
 import android.os.Bundle;

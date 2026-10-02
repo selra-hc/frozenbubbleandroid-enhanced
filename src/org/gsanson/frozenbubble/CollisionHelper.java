@@ -52,8 +52,8 @@
 
 package org.gsanson.frozenbubble;
 
-import org.jfedor.frozenbubble.BubbleSprite;
-import org.jfedor.frozenbubble.LevelManager;
+import org.cb.enhancedfrozenbubble.BubbleSprite;
+import org.cb.enhancedfrozenbubble.LevelManager;
 
 public class CollisionHelper {
 

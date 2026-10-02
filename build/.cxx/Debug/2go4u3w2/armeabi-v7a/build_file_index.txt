@@ -1,2 +1,0 @@
-/home/cbastien/repos/local/frozenbubbleandroid-master/jni/Android.mk
-/home/cbastien/repos/local/frozenbubbleandroid-master/jni/Application.mk

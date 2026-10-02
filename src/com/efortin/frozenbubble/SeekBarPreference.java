@@ -52,7 +52,7 @@
 
 package com.efortin.frozenbubble;
 
-import org.jfedor.frozenbubble.R;
+import org.cb.enhancedfrozenbubble.R;
 
 import android.content.Context;
 import android.content.res.TypedArray;

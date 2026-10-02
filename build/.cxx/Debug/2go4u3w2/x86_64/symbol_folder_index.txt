@@ -1,1 +1,0 @@
-/home/cbastien/repos/local/frozenbubbleandroid-master/build/intermediates/cxx/Debug/2go4u3w2/obj/local/x86_64

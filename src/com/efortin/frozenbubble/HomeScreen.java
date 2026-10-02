@@ -52,9 +52,10 @@
 
 package com.efortin.frozenbubble;
 
-import org.jfedor.frozenbubble.FrozenBubble;
-import org.jfedor.frozenbubble.R;
-import org.jfedor.frozenbubble.SoundManager;
+import org.cb.enhancedfrozenbubble.FrozenBubble;
+import org.cb.enhancedfrozenbubble.LevelPackManager;
+import org.cb.enhancedfrozenbubble.R;
+import org.cb.enhancedfrozenbubble.SoundManager;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -108,6 +109,7 @@ public class HomeScreen extends Activity {
   private final static int BTN10_ID  = 111;
   private final static int BTN11_ID  = 112;
   private final static int BTN12_ID  = 113;
+  private final static int BTN13_ID  = 114;
   private final static int BLUETOOTH_PERMISSIONS_REQUEST = 1001;
 
   private static int buttonSelPage1 = BTN1_ID;
@@ -254,6 +256,50 @@ public class HomeScreen extends Activity {
      * Add view to layout.
      */
     myLayout.addView(optionsButton, myParams);
+    /*
+     * Construct the edit levels button.
+     */
+    Button editLevelsButton = new Button(this);
+    editLevelsButton.setOnClickListener(new Button.OnClickListener(){
+      public void onClick(View v){
+        buttonSelPage4 = BTN13_ID;
+        mSoundManager.playSound("stick", R.raw.stick);
+        startMyLevels();
+      }
+    });
+    editLevelsButton.setOnTouchListener(new Button.OnTouchListener(){
+      public boolean onTouch(View v, MotionEvent event){
+        boolean result = false;
+        switch (event.getAction()) {
+          case MotionEvent.ACTION_DOWN:
+            v.requestFocus();
+            break;
+          case MotionEvent.ACTION_UP:
+            result = v.performClick();
+            break;
+          default:
+            break;
+        }
+        return result;
+      }
+    });
+    editLevelsButton.setText("Edit Levels");
+    editLevelsButton.setTextSize(TypedValue.COMPLEX_UNIT_DIP, 18);
+    editLevelsButton.setWidth((int) (editLevelsButton.getTextSize() * 9));
+    editLevelsButton.setTypeface(null, Typeface.BOLD);
+    editLevelsButton.setHorizontalFadingEdgeEnabled(true);
+    editLevelsButton.setFadingEdgeLength(5);
+    editLevelsButton.setShadowLayer(5, 5, 5, R.color.black);
+    editLevelsButton.setId(BTN13_ID);
+    editLevelsButton.setFocusable(true);
+    editLevelsButton.setFocusableInTouchMode(true);
+    myParams = new LayoutParams(LayoutParams.WRAP_CONTENT,
+                                LayoutParams.WRAP_CONTENT);
+    myParams.addRule(RelativeLayout.CENTER_IN_PARENT);
+    myParams.addRule(RelativeLayout.ABOVE, BTN11_ID);
+    myParams.topMargin    = 15;
+    myParams.bottomMargin = 15;
+    myLayout.addView(editLevelsButton, myParams);
     /*
      * Construct the continue button.
      */
@@ -968,6 +1014,7 @@ public class HomeScreen extends Activity {
     removeViewByID(BTN10_ID);
     removeViewByID(BTN11_ID);
     removeViewByID(BTN12_ID);
+    removeViewByID(BTN13_ID);
   }
 
   @Override
@@ -1277,6 +1324,11 @@ public class HomeScreen extends Activity {
 
   private void startPreferencesScreen() {
     Intent intent = new Intent(this, PreferencesActivity.class);
+    startActivity(intent);
+  }
+
+  private void startMyLevels() {
+    Intent intent = new Intent(this, LevelPackManager.class);
     startActivity(intent);
   }
 }

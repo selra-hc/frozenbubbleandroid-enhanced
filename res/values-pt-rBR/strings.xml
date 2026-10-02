@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">Frozen Bubble</string>
+  <string name="app_name">Frozen Bubbles Melhorado</string>
   <string name="exit">Sair</string>
-  <string name="install_editor">Redirecionando-o para o Android Market para baixar o Editor de Níveis do Frozen Bubble…</string>
-  <string name="market_missing">Não foi possível encontrar o Android Market! Instale o Editor de Níveis do Frozen Bubble manualmente.</string>
   <string name="menu_bluetooth_device">Dispositivo Bluetooth</string>
   <string name="menu_new_game">Iniciar nova partida</string>
   <string name="menu_colorblind_on">Modo Daltônico ligado</string>
@@ -22,8 +20,8 @@
   <string name="play_level_music">Reproduzir música do nível</string>
   <string name="play_sound_effects">Reproduzir efeitos de som</string>
   <string name="save_and_exit">Salvar e sair</string>
-  <string name="title_activity_frozen_bubble">Frozen Bubble</string>
-  <string name="title_activity_home_screen">Frozen Bubble</string>
+  <string name="title_activity_frozen_bubble">Frozen Bubbles Melhorado</string>
+  <string name="title_activity_home_screen">Frozen Bubbles Melhorado</string>
   <string name="scrolling_credits">"Desenvolvimento inicial\n"
     "------------------------\n"
     "\nGuillaume Cottenceau - Design e Programação\n"
